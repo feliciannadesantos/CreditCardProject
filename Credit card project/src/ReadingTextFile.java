@@ -10,6 +10,7 @@ public class ReadingTextFile
     	  while(creditFile.hasNext()) {
     		  long cardNumbers = creditFile.nextLong();
     		  System.out.println(cardNumbers);
+    		  
     	  }
       }
 	}
