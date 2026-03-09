@@ -8,6 +8,7 @@ public class CreditCardValidation
 				
          
          ReadingTextFile.creditTextFile();
+         userInput.UserInput();
 			}
 
 	}

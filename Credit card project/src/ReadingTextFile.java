@@ -9,7 +9,8 @@ public class ReadingTextFile
     	  Scanner creditFile = new Scanner(new File("CCnumbers.txt"));
     	  while(creditFile.hasNext()) {
     		  long cardNumbers = creditFile.nextLong();
-    		  System.out.println(cardNumbers);
+    		  
+    		  
     		  
     	  }
       }
