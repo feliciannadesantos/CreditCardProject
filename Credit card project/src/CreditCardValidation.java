@@ -7,9 +7,9 @@ public class CreditCardValidation
 			{
 				
          
-         ReadingTextFile.creditTextFile();
-         userInput.UserInput();
-         mathArray.numberArray(); 
+         
+         mathArray.numberArray();
+        
 			}
 
 	}
