@@ -1,8 +1,9 @@
 
-public class mathArray
+public class MathArray
 	{
+	static String cardNumber = "";
 	 public static void numberArray() {
-		 String cardNumber = userInput.UserInput();
+		 
 		 
 		 if(cardNumber.length() == 16) {
 			 int[] cardNumbers = new int[16];
@@ -19,8 +20,15 @@ public class mathArray
     		  int currentNumber = cardNumbers[i];
     		if (i % 2 == 0) {
     			currentNumber = currentNumber * 2;
-    		if(currentNumber> 9) {
-    			currentNumber -= 9;
+    		if(currentNumber * 2 > 9) {
+    			int change = 0;
+    			while (currentNumber>0) {
+    				int temporary = currentNumber % 10;
+    				change += temporary;
+    				currentNumber /= 10;
+    				
+    			}
+    			cardNumbers[i] = change;
     		}
     		}
     		sum += currentNumber;

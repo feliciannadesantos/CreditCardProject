@@ -5,10 +5,8 @@ public class CreditCardValidation
 
 		public static void main(String[] args) throws IOException
 			{
-				
-         
-         
-         mathArray.numberArray();
+			UserInput.UserInput();
+         MathArray.numberArray();
         
 			}
 
